@@ -47,6 +47,7 @@ function Create_student() {
                   onChange={formik.handleChange}
                   value={formik.values.sname}
                   type="text"
+                  required="required"
                   className="form-control"
                   placeholder="Enter Your Name"
                 />
@@ -60,6 +61,7 @@ function Create_student() {
                   onChange={formik.handleChange}
                   value={formik.values.sgender}
                   type="text"
+                  required="required"
                   className="form-control"
                   placeholder="Enter Your Gender"
                 />
@@ -73,6 +75,7 @@ function Create_student() {
                   onChange={formik.handleChange}
                   value={formik.values.smobile}
                   type="number"
+                  required="required"
                   className="form-control"
                   placeholder="Enter Your Mobile Number"
                 />
@@ -86,6 +89,7 @@ function Create_student() {
                   onChange={formik.handleChange}
                   value={formik.values.sdob}
                   type="date"
+                  required="required"
                   className="form-control"
                   placeholder="Enter Your DOB"
                 />
@@ -99,6 +103,7 @@ function Create_student() {
                   onChange={formik.handleChange}
                   value={formik.values.semail}
                   type="email"
+                  required="required"
                   className="form-control"
                   placeholder="Enter Your Email Address"
                 />
