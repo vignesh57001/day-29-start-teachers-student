@@ -31,15 +31,15 @@ function Sidebar() {
       <div class="sidebar-heading">Details</div>
 
       <li class="nav-item active">
-        <Link to={"/students"} class="nav-link">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Students</span>
-        </Link>
-      </li>
-      <li class="nav-item active">
         <Link to={"/teachers"} class="nav-link">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Teachers</span>
+        </Link>
+      </li>
+      <li class="nav-item active">
+        <Link to={"/students"} class="nav-link">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Students</span>
         </Link>
       </li>
     </ul>
